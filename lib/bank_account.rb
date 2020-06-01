@@ -19,6 +19,6 @@ end
     self.status = "closed"
   end
 def valid?
-  status = "open" && balance > 0
+ balance > 0 && status = "open" 
 end
 end
